@@ -369,6 +369,9 @@ table{
     .mobile-menu{
         display: none;
     }
+    .no-scroll{
+        overflow: scroll;
+    }
 }
 @media(max-width:684px){
     .navbar-brand img{
