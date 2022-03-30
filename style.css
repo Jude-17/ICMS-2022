@@ -348,7 +348,7 @@ body{
     width: 100%;
 }
 .mobile-navbar div{
-    margin-right: 10px;
+    margin-right: 0px;
     margin-left:5px;
 }
 .hidden{
@@ -538,8 +538,8 @@ body{
         margin-left: 15px;
     }
     .navbar-brand img {
-        width:13px;
-        height: 13px;
+        width:20px;
+        height: 25px;
     }
     .text-xl{
         font-size: 20px;
