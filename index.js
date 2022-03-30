@@ -36,6 +36,7 @@ navbar.addEventListener("click",(e)=>{
         currentActive && currentActive.classList.remove("active")
         currentActive=e.target;
         e.target.classList.add("active");
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Submission of Abstract'){
         currentPage.classList.add("box");
@@ -46,6 +47,8 @@ navbar.addEventListener("click",(e)=>{
         currentActive && currentActive.classList.remove("active")
         currentActive=e.target;
         e.target.classList.add("active");
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Invited Speakers'){
         currentPage.classList.add("box");
@@ -56,6 +59,8 @@ navbar.addEventListener("click",(e)=>{
         currentActive && currentActive.classList.remove("active")
         currentActive=e.target;
         e.target.classList.add("active");
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Organizing Committee'){
         currentPage.classList.add("box");
@@ -66,6 +71,8 @@ navbar.addEventListener("click",(e)=>{
         currentActive && currentActive.classList.remove("active")
         currentActive=e.target;
         e.target.classList.add("active");
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Gallery'){
         currentPage.classList.add("box");
@@ -76,6 +83,8 @@ navbar.addEventListener("click",(e)=>{
         currentActive && currentActive.classList.remove("active")
         currentActive=e.target;
         e.target.classList.add("active");
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     
 })
@@ -90,6 +99,8 @@ mobileMenu.addEventListener("click",(e)=>{
         home.classList.remove("box");
         home.classList.add("visible");
         currentPage=home;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Submission of Abstract'){
         currentPage.classList.add("box");
@@ -97,6 +108,8 @@ mobileMenu.addEventListener("click",(e)=>{
         abstract.classList.remove("box");
         abstract.classList.add("visible");
         currentPage=abstract;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Invited Speakers'){
         currentPage.classList.add("box");
@@ -104,6 +117,8 @@ mobileMenu.addEventListener("click",(e)=>{
         speakers.classList.remove("box");
         speakers.classList.add("visible");
         currentPage=speakers;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Organizing Committee'){
         currentPage.classList.add("box");
@@ -111,6 +126,8 @@ mobileMenu.addEventListener("click",(e)=>{
         committee.classList.remove("box");
         committee.classList.add("visible");
         currentPage=committee;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
     else if (link==='Gallery'){
         currentPage.classList.add("box");
@@ -118,25 +135,11 @@ mobileMenu.addEventListener("click",(e)=>{
         gallery.classList.remove("box");
         gallery.classList.add("visible");
         currentPage=gallery;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
 })
-//Map
-// Initialize and add the map
-// function initMap() {
-//     // The location of Uluru
-//     const uluru = { lat: -25.344, lng: 131.036 };
-//     // The map, centered at Uluru
-//     const map = new google.maps.Map(document.getElementById("map"), {
-//       zoom: 4,
-//       center: uluru,
-//     });
-//     // The marker, positioned at Uluru
-//     const marker = new google.maps.Marker({
-//       position: uluru,
-//       map: map,
-//     });
-//   }
-
+//Toggling Actions
 const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('menu')
 function navToggle(){
