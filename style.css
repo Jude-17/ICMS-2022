@@ -349,7 +349,7 @@ body{
 }
 .mobile-navbar div{
     margin-right: 0px;
-    margin-left:5px;
+    margin-left:0px;
 }
 .hidden{
     transform: translateX(-100%);
@@ -533,6 +533,10 @@ body{
         font-size: 0.9rem;
         width: 5rem;
         text-align: center;
+    }
+    .mobile-menu .navbar-link:hover{
+        background-color: unset;
+        transition: all ease 0.8s;
     }
     .mobile-navbar div:first-child{
         margin-left: 15px;
