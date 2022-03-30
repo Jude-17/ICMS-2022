@@ -542,8 +542,9 @@ body{
         margin-left: 15px;
     }
     .navbar-brand img {
-        width:20px;
-        height: 25px;
+        margin-right: 5px;
+        width: 25px;
+        height: 26px;
     }
     .text-xl{
         font-size: 20px;
