@@ -149,6 +149,7 @@ body{
     background-color: aquamarine;
 }
 .abstract-main p{
+    text-align: center;
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 2.5rem;
@@ -166,6 +167,9 @@ body{
     color:gold;
     background-color: midnightblue;
     transition: all ease 0.4s;
+}
+table{
+    border: 1px solid #000;
 }
 .visible{
     display: block;
