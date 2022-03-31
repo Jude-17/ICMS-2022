@@ -126,6 +126,12 @@ body{
     color: blue;
     font-size: 1.5rem;
 }
+.schedule-pdf h3{
+    color:rgb(230, 23, 92);
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px;
+}
 .block-image{
     /* position: relative; */
     padding: 20px;
@@ -171,6 +177,12 @@ body{
     color:gold;
     background-color: midnightblue;
     transition: all ease 0.4s;
+}
+.pdf-container h3{
+    color:rgb(230, 23, 92);
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px;
 }
 table{
     margin: 50px auto;
