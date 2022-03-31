@@ -146,7 +146,7 @@ body{
 }
 .abstract-main{
     margin: 40px auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .abstract-main p{
     text-align: center;
@@ -169,7 +169,12 @@ body{
     transition: all ease 0.4s;
 }
 table{
-    border: 1px solid #000;
+    margin: 50px auto;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
 }
 .visible{
     display: block;
