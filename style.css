@@ -158,9 +158,13 @@ body{
     color: rgb(230, 23, 92)
 }
 .abstract-main a{
+    color: #fff;
+    border-radius: 5px;
     text-decoration: none;
     font-size: 1.3rem;
+    padding: 0.5rem;
     margin-left: 3px;
+    background-color: dodgerblue;
 }
 .abstract-main a:hover{
     border-radius: 4px;
